@@ -122,6 +122,9 @@ Children:
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
+        - Name: 'Message_it-IT'
+          Type: StoreColumn
+          DataType: String
     - Name: Recipes
       Type: SQLiteStoreTable
       Children:
