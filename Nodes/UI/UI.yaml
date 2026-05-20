@@ -406,7 +406,7 @@ Children:
               - Name: Severity
                 Type: PropertyType
                 DataType: UInt16
-        - Name: Button3
+        - Name: Button4
           Type: Button
           Children:
           - Name: Text
