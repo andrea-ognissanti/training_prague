@@ -1,0 +1,1318 @@
+Name: Folder2
+Id: g=04a9fcff0ef14810a454bd239db33f0a
+Type: FolderType
+Children:
+- Name: DigitalAlarm17
+  Id: g=b1b527fb76c4446797848dd8c7430668
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2094acc0cd54f5a5427f2f76a7f81caf
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=dbc000dd1e38a9c2e04827a96dda9786
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=28ff164840f812361695ebc17635d5bc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=5cb276b534d61449819f5a5312e21bed
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=4f6077fe10ef64a90b8c8ae1bc9c4503
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 17"}
+  - Name: MaxTimeShelved
+    Id: g=64f33e3b776ed3261a6b19758885d91a
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=937335df8c8b30c16fd8aaf05fe829c1
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=2cdffb81b2216b7dc40907795b650675
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm18
+  Id: g=a11701ce475d4b4e8428b9465e932039
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=93cbe6ec22a488f0c7b43624266819b3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e91b209a78047cc00c9997bab5d9c4e2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=1ac521ed30e8138876af2e5fa9547c1f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=a5b5fe8f55e3b055077324e4a5024038
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=d9f7c44acd954d0c9516cd443dd664fe
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 18"}
+  - Name: MaxTimeShelved
+    Id: g=a933a2a84cbfce216848afd657689cd5
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=24e6f40d325b8086139dd6e5f6a682d1
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=dd9d59f4266fae538857690853a539a2
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm19
+  Id: g=57c342a3a89a41c9976f8fb08ad39669
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8a42f209ddaee2e99247220b73efd8e4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=aa5135781d460072a888d1086cac10b0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=c5acc5076acd5b4847a82e1666055f6f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=ad56cdc2e8f6ce151d2103e1fd64d164
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=a25ff57c8efb7719156409a6aa500a6f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 19"}
+  - Name: MaxTimeShelved
+    Id: g=9c6d7ba16711001f3656fb213390e97c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=fdc0929cc46556be5b6deb986dc8fb40
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=577d86ebab2e019a9dee22723b9ac8df
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm20
+  Id: g=5d34fc69701044ccb2b863bcde4ff5bf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7e1d16808138021fa702301d23857fa9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=55623667f512f59f6dff2b57d948b027
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=6d5de19471739120553b3e8ba2618c73
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=3a658e172e364791393ce83394b9c257
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=cbcc9b9071d7364bc05efd48c8b822da
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 20"}
+  - Name: MaxTimeShelved
+    Id: g=c8646834bfe1ae0fe54728bdd9d1fc40
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=01ee95477ee4804c55ba90f670c270d0
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=6b2c5aeca40f1f0b950688cfa3249f99
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm21
+  Id: g=81b992a4a4054f31a8afddbfb39a27f2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=088cfae39ffa265f9386443881a5124c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3aaf081aea3b2a88308700d4ca73b27d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3ed1be64631b886466f5ebbd05f2b097
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=ce4ebf32874390b04cd332141970c860
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=0408b8ec8659458fcc2c5c923606038a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 21"}
+  - Name: MaxTimeShelved
+    Id: g=05b3ad803f9140c1fc2df736783069d6
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=9f49bf4f231fa06640aa3c9649aed8ab
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=4696e32264327adf8fa8cf54633f9de2
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm22
+  Id: g=95ac830286ad4b4183894f0ed20f48fd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=eaaebd0fbcb9015f95651e453530b16c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d9bc43ff3d7e981776006a8ccada2cd3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=5c8f9d4c53756681f3855ada375c3433
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=07e8dee054c3b93d4c8adad482d8350f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=9388cb502b701473cf5cb01897a118da
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 22"}
+  - Name: MaxTimeShelved
+    Id: g=42e35f23b7310d8a27595a2bb9120c13
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=0c8b80c42e6a8db9b2031ba24bf8d34c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=576f73e7639f8345c7c3e5e029176a71
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm23
+  Id: g=5e49bc82525d4cb9aead5d67cb43d359
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a9d7fcdc5013ff03990cdeb7c1aca056
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b31e67c41116f6627a5a951fe9033ca7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b096f805ca47e3a58ca2c9e863f856ee
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=539f12a20ba237c243887d03b1f30c6f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=206fdbc08eae5b4f0d16e7c34443fdb2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 23"}
+  - Name: MaxTimeShelved
+    Id: g=d2197198b22358ac39fd513d217ce2e4
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=a36f3b34e4e66c5588362ff6bafd7791
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=7ddc8255b517201102c84e7bd457a1c3
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm24
+  Id: g=019b5edad77642cdac97241656b932c8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7ae54877b8eba84d6c9775772c73e299
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0173640b52a6962e900d6b92a882bfd8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=c3130e17f9646e827c89923ade6db10e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=bdfe733ee2bf2a928ad6fa249c29f28f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=7162f268057c4ea03272a793f0bde08b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 24"}
+  - Name: MaxTimeShelved
+    Id: g=685422c5d929dd62ea5d74fba8e42edd
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=6ae5b0cdb4161ebc595125f33672b5ca
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=b15ed34c4e1c79655c8869eb6c316b86
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm25
+  Id: g=66aec0b5fd224dba9b70c95516a30d7d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ae2e5fc50c0713dcab69da7501e2011a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=5063792e6c2565fc6d8d899dfcc121ae
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=f4ac24d34c28280b672834519e0e16d7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=8a8c83645caedc35c36a314944a3c48d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=eb545adaaf5156c5428a00d319aa798f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 25"}
+  - Name: MaxTimeShelved
+    Id: g=9990088874df771e6553b868f7b46e4e
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=2553c8c867c66119c9aadb894cb6046d
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=d452c79cae46cde053f11e19e64a5604
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm26
+  Id: g=62c410a3127f4766b97896739fdc3336
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=21195e83e3dc0ef04fae5e8445c9e669
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=842d38c640156fc8cffdee92821944c1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=27a9d84506ba189ba9b4e7acf3a75c75
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=4534a23d4ff754205d5966f429962a62
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=68d3f8c4c5abd8939316169f1ff614a8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 26"}
+  - Name: MaxTimeShelved
+    Id: g=211586cfd64aa90c6678fcc2adfa14bb
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=2ec562b3e7b84922a5a64bface565545
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=da0c54dcb06ffa5f8c28e0a1e1141d39
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm27
+  Id: g=c3a43e1da31a4a399e2e332de906a977
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b63b7ef66d649c39b5c925105179589f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a73d7885a8c49836bb032afc74e0dd08
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=65494cefeeece8a58a12f0ff66793518
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=c890d1e6e68bdc72062df7a86bc8a50d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=a11e1f795e62d288c61fd3088831c311
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 27"}
+  - Name: MaxTimeShelved
+    Id: g=46ac677f5829e241b2c0976efeb73b2c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=a0df0df351dcfb2259cba378f5a0f756
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=5b0cccf1ca5a5d0d721296842116be96
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm28
+  Id: g=50fe141315c946a8b7aebfcfccfdf450
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0c779285b5323b62c8cfc9a7879442a8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c498749aff0615044a88ac695fbca78f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3382bcf7e55ae105feaf5fcbf4a456bc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=215be8b8c405cbaf44f595904cb64d28
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=2bfa3e0326425256c4142bf43bf9b08f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 28"}
+  - Name: MaxTimeShelved
+    Id: g=cbbdaceb185758bc88a5932ce4e7d2c1
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=98e468c0ccb8c0b81a87c346f77bfc90
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=a496c14303a0ef7633bc137c215f2d08
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm29
+  Id: g=13a2552ebf8347c6a7f77f1516f10f71
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f749a873bdf9a564cd7268a24a056374
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9ec3898a0d2d5a09efcdfcb5da19961c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=c17fcba7e07feb0c5c016d286c6605bc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=e0ed63bd007e45fac00fcda54d611f1b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=7d2d827cb6bc99f6cc178c5e0b4247a1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 29"}
+  - Name: MaxTimeShelved
+    Id: g=f263a50befd405b225a336bd747400f1
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=1e665aa268147032e03ba7af7e67bee2
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=ed865b21977421fe0a7229514f030c94
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm30
+  Id: g=eead6e0185b7447db49bf2f1c70afb06
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c6da6ff2be347d372871d886e280fa4b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f8a599a103960905710ef0c90cca6112
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=5b1e6cebb8de4b1ab06cf749e8dc0c9b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=33bcd0058a19c2b0c28706ea926a5b58
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=72ff6c7a92680b14e45db21a7fc72e1d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 30"}
+  - Name: MaxTimeShelved
+    Id: g=f5265eba5fd730e5cc066312df28a0f8
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=ddcbf9c6abf798c91cd4273193595b6c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=3bba3b40eb9c95b27796748f511b4182
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm31
+  Id: g=10f9e29abec44d039a3d346b7fbd441b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cba37a677fe4f344bd1d9e5ff45f7161
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=25684965e5531ae2d129edb7863edd7b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=d924596edc3d4d342975555773e680df
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=4dfe379578852cd5c9d4a12416662107
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=5f1a7e26bbd3442b518c8a81489f462c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 31"}
+  - Name: MaxTimeShelved
+    Id: g=a43ce998e4963d6ba2302cd8e1139b53
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=25c9069f698165394f7c412167c7e2b7
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=ffa0d81cc5ff8930e92883f1e6adf084
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm32
+  Id: g=da5cd64accda459ba996f09354c6bc68
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c70265ab8c7b9348c3aa0115bb4fcc46
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9cfc6a83811bc08b2543218f9f6d1e8c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=24f63ee1a3a134bf34968ddfc570a44d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=28f028b062292fb817ef9b3357fc57fb
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=665fa5322175e12bd19a9077422be4c9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 32"}
+  - Name: MaxTimeShelved
+    Id: g=75791bb14a8072e41199dc9f5ece2a53
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=76c1dac532156d98e1411a77891177b3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=1d199438f933b6bf25e98d9a54703698
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm33
+  Id: g=25b4d2a154c7482e84b72b71bc5de733
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=46e06f374d3aee1e4288b517c4510ba8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4199d705896246ecd58764b22e174d90
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0196ecdb576d60e9652cdeb8e01ff65f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=927be551ef44e826787bd8bafd0173a6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=6549f524236a31430a7c2577cbd9c16b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 33"}
+  - Name: MaxTimeShelved
+    Id: g=f62bf53b7f93caaf64536cc8eb5a19a8
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=b951a3fa6962e71bae2ca2a6245b93d9
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=245a554d88472740419d871bb03bfceb
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: DigitalAlarm34
+  Id: g=bcb72fcd0e2345a68f73d289a67f4c60
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=78563d6af8bf69248825de12c5b75830
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=16a02093516a2a1e20fd67288f6c0067
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=709bfb488b54328e28a88da9022adbce
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=30;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=30;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=d4a944c68aa1d6c527fbd5472f003d10
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: Message
+    Id: g=e8c7c5076ac16f1a096a1f023eee638c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"Message 34"}
+  - Name: MaxTimeShelved
+    Id: g=03fb48209c830812f909456b0ab7851e
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=7c71fccc350da2ad504ec11e7910c43c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: LatchingEnabled
+    Id: g=14c9330ca0e2f2a89ed0ceb8e5df7e75
+    Type: BaseDataVariableType
+    DataType: Boolean

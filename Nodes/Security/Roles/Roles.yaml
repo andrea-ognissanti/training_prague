@@ -1,3 +1,13 @@
 Name: Roles
 Id: g=168315c4ba704e70bb13e35de715eb03
 Type: RolesCategoryFolder
+Children:
+- Name: Operators
+  Id: g=874b98e855e9e77f639f3a021ee99d1a
+  Type: ns=1;RoleType
+- Name: Admin
+  Id: g=cbe559f6e243299f9512b75c845e0780
+  Type: ns=1;RoleType
+- Name: Developer
+  Id: g=4500c739c3ada1583932729f5b48a3c7
+  Type: ns=1;RoleType

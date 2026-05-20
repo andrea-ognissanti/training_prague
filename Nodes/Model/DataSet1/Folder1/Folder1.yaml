@@ -1,0 +1,18 @@
+Name: Folder1
+Id: g=8b83c4bf9388cbac02a1bda810c66566
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=1189c53217a8fc39ad32b655f37e1c5c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../NetLogic/VariablesSimulator/Sine"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

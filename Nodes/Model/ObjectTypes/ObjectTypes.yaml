@@ -1,0 +1,17 @@
+Name: ObjectTypes
+Type: FolderType
+Children:
+- Name: MyMotor
+  Id: g=4dca7662a189c85f1e342ecb35581dd7
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Boolean

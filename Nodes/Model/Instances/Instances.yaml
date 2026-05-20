@@ -1,0 +1,61 @@
+Name: Instances
+Type: FolderType
+Children:
+- Name: MyMotorInstance1
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor 1"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 50.0
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MyMotorInstance2
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor 2"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 50.0
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: MyMotorInstance3
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor 3"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 50.0
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MyMotorInstance4
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor 4"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 50.0
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

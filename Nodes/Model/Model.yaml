@@ -1,2 +1,42 @@
 Name: Model
+Id: g=a514b46f7db27ab800999308b7c69559
 Type: ModelCategoryFolder
+Children:
+- File: ObjectTypes/ObjectTypes.yaml
+- File: Instances/Instances.yaml
+- File: DataSet1/DataSet1.yaml
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Float
+  Value: 22.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: EngineeringUnitDictionary1
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"LocaleId":"en-US","Text":"Chicken/cm2"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}}]

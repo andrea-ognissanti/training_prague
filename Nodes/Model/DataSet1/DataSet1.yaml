@@ -1,0 +1,34 @@
+Name: DataSet1
+Id: g=7e823bc14fe835a96dc59cc2bd6abc07
+Type: FolderType
+Children:
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../NetLogic/VariablesSimulator/Cosine"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../NetLogic/VariablesSimulator/Ramp"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: Folder1/Folder1.yaml
